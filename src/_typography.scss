@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@100&display=swap');
+
+$site-font: 'Nanum Gothic', sans-serif;
+$title: 'Poppins', sans-serif;
+
+* {
+    font-family: $site-font; 
+    margin: 0; 
+}
