@@ -6,29 +6,31 @@ type project = {
     deploy: string, 
     desc: string, 
     stack: string[],
-    media: string[]
+    media: string
 }
 
 export const Project = ({ name, github, deploy, desc, stack, media }: project ) => {
 
     return (
-        <article>
-            <h3>{name}</h3>
-            <div>
-                <section>
+        <article className='project-card'>
+            <h3 className='project-title'>{name}</h3>
+            <div className='project-details'>
+                <section className='project-desc'>
                     <p>{desc}</p>
+                        <div className='tech-card'>
+                            <h5>TECH STACK</h5>
+                            <div className='tech-stack'>
+                            {stack.map(name => <p>{name}</p>)}
+                            </div>
+                    </div>
                 </section>
                 <section>
-                    <h5>TECH STACK</h5>
-                    {stack.map(name => <li key={name}><p>{name}</p></li>)}
+                    <img src={media} className='project-media'/>
+                    <div className='project-links'>
+                        <a href={github} className='code-link'>CODE</a>
+                        <a href={deploy} className='deploy-link'>DEPLOYED</a>
+                    </div>
                 </section>
-                <section>
-                    <img></img>
-                </section>
-            </div>
-            <div>
-                <button>CODE</button>
-                <button>DEPLOYED</button>
             </div>
         </article>
     )
