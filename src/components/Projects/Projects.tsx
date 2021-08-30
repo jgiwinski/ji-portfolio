@@ -17,7 +17,8 @@ export const Projects = () => {
 
     return (
         <section id='projects' >
-            <h2>PROJECTS</h2>
+            <h2 className='section-title'>PROJECTS</h2>
+            <hr></hr>
             {allProjects}
         </section>
     )
