@@ -16,12 +16,12 @@ export const Project = ({ name, github, deploy, desc, stack, media }: project ) 
             <h3 className='project-title'>{name}</h3>
             <div className='project-details'>
                 <section className='project-desc'>
-                    <p>{desc}</p>
-                        <div className='tech-card'>
-                            <h5>TECH STACK</h5>
-                            <div className='tech-stack'>
-                            {stack.map(name => <p>{name}</p>)}
-                            </div>
+                    <p className='bottom-space'>{desc}</p>
+                    <div className='tech-card'>
+                        <h5>TECH STACK</h5>
+                        <div className='tech-stack'>
+                        {stack.map(name => <p>{name}</p>)}
+                        </div>
                     </div>
                 </section>
                 <section>

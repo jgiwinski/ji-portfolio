@@ -2,6 +2,7 @@
 
 .project-card {
     @include centerColumn; 
+    margin: 3% 0%;
 }
 
 .project-details, .project-links, .tech-stack {
@@ -20,12 +21,14 @@
 .project-desc {
     width: 50%;
     padding: 15px; 
+    margin-right: 1%;
 }
 
 .tech-card {
     padding: 30px;
     background-color: $cream;
     border-radius: 10px;
+    @include boxShadow; 
 }
 
 .project-media {
@@ -33,7 +36,22 @@
     border: double $purple; 
 }
 
+.bottom-space {
+    margin: 10px 10px 30px 10px;
+}
+
 .code-link, .deploy-link {
+    margin-top: 3%;
+    padding: 5px; 
+    width: 20%; 
+    border-radius: 5px;
     border: solid $offwhite; 
-    margin-top: 3%; 
+    text-align: center;
+    @include boxShadow; 
+    &:hover {
+        color: $darkpurple; 
+        cursor: pointer; 
+        transform-origin: center;
+        transform: scale(1.1);
+    }
 }
