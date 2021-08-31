@@ -24,6 +24,4 @@ export const projectData = [
      stack: ['React', 'Cypress', 'Router'],
     media: 'https://i.gyazo.com/55570a3e2d68cf052e52e9e62d35e3b2.gif'
     },
-    
   ]
-  

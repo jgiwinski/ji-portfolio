@@ -1,5 +1,27 @@
-.box {
-    height: 400px; 
-    width: 100%;
-    background-color: red;
+@import '../../index.scss'; 
+
+.edu-container {
+    @include centerRow; 
+    height: 400px;
+}
+
+.edu-card {
+    align-items: center;
+}
+
+.edu-program {
+    font-family: $title;
+}
+
+.edu-icon {
+    height: 100px;
+    width: 100px;
+    background-color: $offwhite;
+    border-radius: 50%;
+    margin: 20px; 
+    @include boxShadow;
+}
+
+.edu-school {
+
 }
