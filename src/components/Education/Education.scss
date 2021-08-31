@@ -2,7 +2,7 @@
 
 .edu-container {
     @include centerRow; 
-    height: 400px;
+    height: 500px;
 }
 
 .edu-card {
@@ -11,17 +11,22 @@
 
 .edu-program {
     font-family: $title;
+    font-size: 1.75em;
+    border-bottom: solid 1px $offwhite;
 }
 
 .edu-icon {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: $offwhite;
     border-radius: 50%;
     margin: 20px; 
     @include boxShadow;
+    @include centerRow;
+    color: $darkpurple; 
 }
 
 .edu-school {
-
+    margin: 10px; 
 }
+
