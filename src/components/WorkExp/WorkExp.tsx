@@ -10,21 +10,19 @@ export const WorkExp = () => {
             <hr></hr>
             <VerticalTimeline>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
                     contentStyle={{ background: '#EAD7D7', color: '#000' }}
                     contentArrowStyle={{ borderRight: '7px solid  #EAD7D7' }}
                     date="Present"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaMapMarkedAlt />}
                 >
-                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                    <p>
-                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                    </p>
+                    <h3 className="pe-role">Software Engineer</h3>
+                    <h4 className="pe-company"></h4>
+                    {/* <ul>
+                        <li></li>
+                    </ul> */}
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
                     date="Feb 2021 - June 2021"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaLaptopCode />}
@@ -40,7 +38,6 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
                     date="May 2018 - Nov 2019"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaHome />}
@@ -56,7 +53,6 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
                     date="Aug 2015 - May 2018"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaPlane />}
@@ -71,7 +67,6 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    // className="vertical-timeline-element--education"
                     date="Aug 2014 - Aug 2015"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaBed />}
