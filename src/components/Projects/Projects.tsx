@@ -1,4 +1,3 @@
-import './Projects.scss'; 
 import { Project } from '../Project/Project';
 import { projectData } from '../../data/projectData'; 
 
