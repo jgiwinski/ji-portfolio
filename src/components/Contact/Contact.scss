@@ -1,0 +1,22 @@
+@import '../../index.scss';
+
+.contact-card {
+    align-items: center;
+}
+
+.contact-photo {
+    height: 300px;
+    border-radius: 50%;
+    border: double $darkpurple; 
+}
+
+.contact-icons {
+    margin: 20px 0; 
+    width: 30%;
+    @include centerRow; 
+    color: $purple; 
+}
+
+.contact-icons svg:hover {
+    color: $lightpurple;
+}
