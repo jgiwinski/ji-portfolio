@@ -1,5 +1,5 @@
 import './HobbiesMisc.scss'; 
-import ski from './ski.jpeg'; 
+// import ski from './ski.jpeg'; 
 
 export const HobbiesMisc = () => {
     return (

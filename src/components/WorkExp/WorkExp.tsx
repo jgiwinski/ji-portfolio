@@ -17,7 +17,7 @@ export const WorkExp = () => {
                     icon={<FaMapMarkedAlt />}
                 >
                     <h3 className="pe-role">Software Engineer</h3>
-                    <h4 className="pe-company"></h4>
+                    {/* <h4 className="pe-company"></h4> */}
                     {/* <ul>
                         <li></li>
                     </ul> */}
