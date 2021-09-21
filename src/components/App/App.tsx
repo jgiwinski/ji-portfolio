@@ -1,6 +1,5 @@
-// import React from 'react';
+import React from 'react';
 import './App.scss';
-// import { NavHashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
 import { Navbar } from '../Navbar/Navbar';
 import { Header } from '../Header/Header'; 

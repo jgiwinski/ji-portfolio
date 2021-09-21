@@ -23,6 +23,8 @@ export const WorkExp = () => {
                     </ul> */}
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: '#f5f1f5', color: '#000' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #f5f1f5' }}
                     date="Feb 2021 - June 2021"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaLaptopCode />}
@@ -38,6 +40,8 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: '#f5f1f5', color: '#000' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #f5f1f5' }}
                     date="May 2018 - Nov 2019"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaHome />}
@@ -53,6 +57,8 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: '#f5f1f5', color: '#000' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #f5f1f5' }}
                     date="Aug 2015 - May 2018"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaPlane />}
@@ -67,6 +73,8 @@ export const WorkExp = () => {
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
+                    contentStyle={{ background: '#f5f1f5', color: '#000' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #f5f1f5' }}
                     date="Aug 2014 - Aug 2015"
                     iconStyle={{ background: '#6D466B', color: '#fff' }}
                     icon={<FaBed />}

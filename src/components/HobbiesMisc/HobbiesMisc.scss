@@ -1,5 +1,8 @@
-.box {
-    height: 400px; 
-    width: 100%;
-    background-color: red;
+@import '../../index.scss'; 
+
+.hobbies {
+    margin-top: 100px; 
+    @include centerColumn; 
+    align-items: center;
+    color: $darkpurple;
 }

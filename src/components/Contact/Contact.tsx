@@ -1,3 +1,4 @@
+import React from 'react';
 import './Contact.scss'; 
 import { FaLinkedin, FaGithubSquare, FaEnvelope } from "react-icons/fa";
 import oldManShirt from './oldManShirt.jpeg'; 

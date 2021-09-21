@@ -1,4 +1,12 @@
 export const projectData = [
+  {
+    name: 'CAMP Social Hour',
+    github: 'https://github.com/westarete/camp-social',
+    deploy: 'https://camp-social-production.herokuapp.com/ad44c73a9a87b695159b3abe298fc89ff9946f51/',
+    desc: 'During this 3 week, solo front-end contract project I created a fully accessible ADA compliant app used for a 300+ participant conference. The app is meant to be a replacement for other video conferencing software that does not meet ADA accessibility requirements or is challenging to use for those reliant on assistive technology. When in use, participant names will live populate or disappear around each fire pit when entering in or out of the video rooms.',
+    stack: ['React', 'Router', 'SASS', 'CircleCI', 'JavaScript'],
+    media: 'https://i.gyazo.com/fef8ffc274c63d9100e543567294f14b.gif'
+  },
     {
       name: 'Flick Finder',
       github: 'https://github.com/What-2-Watch/what-2-watch-fe',
